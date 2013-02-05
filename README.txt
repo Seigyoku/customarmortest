@@ -13,6 +13,6 @@ test_2.png
 testalt_1.png
 testalt_2.png
 
-must be placed within \forge\mcp\jars\bin\minecraft.jar\armor for this to properly work. I don't know of a way currently to achieve custom armor rendering without altering the .jar at this time, however this should be of help for those who wish to understand how to make this work in the first place.
+must be placed within \forge\mcp\jars\bin\minecraft.jar\armor for this to properly work. This approach does not make use of IArmorTextureProvider, however this should be of help for those who wish to understand how to make this work in the first place. Compare and contrast with https://github.com/Seigyoku/customarmortestiatp to see how the different approaches work.
 
 The Mod is not written for MultiPlayer, so there is no supplied server-side coding.
