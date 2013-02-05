@@ -55,7 +55,7 @@ public class CustomArmorTest {
 		
 		//syntax: (ID, EnumArmorMaterial, renderIndex, armorType)
 		//This makes it so that, with the supplied files, the top half of the armor will be rendered on the player as diamond and the bottom half will be chain.
-		//However, we're intentionally using .setIconCoord(int, int) to make all the parts show as golden armor items. 
+		//However, we're intentionally using .setIconCoord(int, int) to make all the parts show up as golden armor items in the inventory. 
 		customHelmetTest = new CustomArmor(6000, customArmorMaterial, ModLoader.addArmor("test"), 0).setIconCoord(4, 0).setItemName("customHelmetTest");
 		customChestplateTest = new CustomArmor(6001, customArmorMaterial, ModLoader.addArmor("test"), 1).setIconCoord(4, 1).setItemName("customChestplateTest");
 		customLeggingsTest = new CustomArmor(6002, customArmorMaterial, ModLoader.addArmor("testalt"), 2).setIconCoord(4, 2).setItemName("customLeggingsTest");
