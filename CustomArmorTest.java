@@ -48,15 +48,18 @@ public class CustomArmorTest {
 	public void load (FMLInitializationEvent event) {
 		proxy.registerRenderers();
 		
+		//the "test" prefix uses the supplied diamond armor skins 
 		RenderingRegistry.addNewArmourRendererPrefix("test");
+		//the "testalt" prefix uses the supplied chain armor skins
 		RenderingRegistry.addNewArmourRendererPrefix("testalt");
 		
 		//syntax: (ID, EnumArmorMaterial, renderIndex, armorType)
 		//This makes it so that, with the supplied files, the top half of the armor will be rendered on the player as diamond and the bottom half will be chain.
-		customHelmetTest = new CustomArmor(6000, customArmorMaterial, ModLoader.addArmor("test"), 0).setIconCoord(3, 0).setItemName("customHelmetTest");
-		customChestplateTest = new CustomArmor(6001, customArmorMaterial, ModLoader.addArmor("test"), 1).setIconCoord(3, 1).setItemName("customChestplateTest");
-		customLeggingsTest = new CustomArmor(6002, customArmorMaterial, ModLoader.addArmor("testalt"), 2).setIconCoord(3, 2).setItemName("customLeggingsTest");
-		customBootsTest = new CustomArmor(6003, customArmorMaterial, ModLoader.addArmor("testalt"), 3).setIconCoord(3, 3).setItemName("customBootsTest");
+		//However, we're intentionally using .setIconCoord(int, int) to make all the parts show as golden armor items. 
+		customHelmetTest = new CustomArmor(6000, customArmorMaterial, ModLoader.addArmor("test"), 0).setIconCoord(4, 0).setItemName("customHelmetTest");
+		customChestplateTest = new CustomArmor(6001, customArmorMaterial, ModLoader.addArmor("test"), 1).setIconCoord(4, 1).setItemName("customChestplateTest");
+		customLeggingsTest = new CustomArmor(6002, customArmorMaterial, ModLoader.addArmor("testalt"), 2).setIconCoord(4, 2).setItemName("customLeggingsTest");
+		customBootsTest = new CustomArmor(6003, customArmorMaterial, ModLoader.addArmor("testalt"), 3).setIconCoord(4, 3).setItemName("customBootsTest");
 		
 		LanguageRegistry.addName(customHelmetTest, "Custom Helmet Test");
 		LanguageRegistry.addName(customChestplateTest, "Custom Chestplate Test");
