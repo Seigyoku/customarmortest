@@ -32,7 +32,7 @@ public class CustomArmorTest {
 	public static CommonProxy proxy;
 	
 	//syntax: (name, durability, reductionAmounts, enchantability)
-	EnumArmorMaterial customArmorMaterial = EnumHelper.addArmorMaterial("customArmor", 40, new int[]{5, 14, 9, 5}, 15);
+	EnumArmorMaterial customArmorMaterial = EnumHelper.addArmorMaterial("customArmorMaterial", 40, new int[]{5, 14, 9, 5}, 15);
 	
 	public static Item customHelmetTest;
 	public static Item customChestplateTest;
