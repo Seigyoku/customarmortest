@@ -3,7 +3,6 @@ package mod.customarmortest;
 import net.minecraft.item.EnumArmorMaterial;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.common.IArmorTextureProvider;
 
 public class CustomArmor extends ItemArmor {
 
