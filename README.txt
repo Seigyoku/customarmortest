@@ -3,7 +3,8 @@ Minecraft 1.4.7
 Minecraft Forge 6.6.0.497
 
 This is the source code for a Custom Armor Test Mod to be used with Forge.
-Please import the directory's contents to \forge\mcp\src\minecraft\mod\customarmortest using Eclipse.
+Please import customarmortest-master's contents (where this README.txt is)
+to \forge\mcp\src\minecraft\mod\customarmortest using Eclipse.
 
 This achieves custom armor rendering, however the files:
 
