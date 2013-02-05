@@ -22,6 +22,7 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
 
 //As this is only for proof of concept, I used files already contained within Minecraft.jar for the purpose of this test.
+//cat.png is merely gui\items.png, and the test images are copies of the diamond and chain armor skins found in \armor\.
 
 public class CustomArmorTest {
 	@Instance("CAT")
