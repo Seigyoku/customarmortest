@@ -2,7 +2,6 @@ package mod.customarmortest;
 
 import net.minecraft.item.EnumArmorMaterial;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemArmor;
 import net.minecraft.src.ModLoader;
 import net.minecraftforge.common.EnumHelper;
 import cpw.mods.fml.client.registry.RenderingRegistry;
